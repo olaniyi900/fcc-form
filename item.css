@@ -1,0 +1,22 @@
+table,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  margin: inherit;
+  color: white;
+}
+h2{
+  text-align: center;
+}
+div{  
+margin-left: 80px;
+
+}
+body{
+  background-image: url(laura-college-190105-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+}
+th, td{
+  padding: 15px;
+}
