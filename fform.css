@@ -52,15 +52,7 @@ body{
 .sex{
   margin-right: 70px;
 }
-.tf{
-  margin-left: 32px;
-}
-.sm{
-  margin-left: 10px;
-}
-.ot{
-  margin-right: 30px;
-}
+
 .ht{
   margin-right: 23px;
 }
@@ -81,9 +73,17 @@ body{
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-image: linear-gradient(180deg,green, #14e233);
+  background-image: linear-gradient(180deg,green, #3f7a48);
   box-shadow: 2px 2px 1px #05420f;
 }
 ul{
+  margin: 0;
+    padding: 0;
   list-style-type: none;
+}
+fieldset {
+  width: 250px;
+  box-sizing: border-box;
+  margin-left: 136px;
+  border: 1px solid #999;
 }
