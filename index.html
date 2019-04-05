@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1 id="title">Application Form</h1>
-    <form action="http://foo.com" class="" id="survey-form"  method="post">
+    <form class="" id="survey-form"  method="post">
       <p  id="description">Application for the post of web a developer</p>
     <div class="fname">
       <label id="name-label" for="name">First Name:</label>
@@ -45,30 +45,32 @@
       <label id="number-label" for="number"> Years of Exprience:</label>
       <input id="number" type="number" name="mail" placeholder="Exprience in Years" min="2" max="8">
     </div>
-    <fieldset>
-    
+    <div class="">
+      <div class="">
+       <p>How do Know this Company?</p>
+      </div>
       
-       <legend>How do Know this Company?</legend>
-        <ul>
-          <li>
-        <label for="tf"><input type="radio" id="tf" name="know" value="Through Friend">Through Friend</label>
-      </li>
-        <li> 
+        
+      <div class="tf">
+        <label for="tf"><input type="radio" id="tf" name="know" value="">Through Friend</label>
+        
+      </div>
+      
+      <div class="sm">
         <label for="sm"><input type="radio" id="sm" name="know" value="">Social Media</label>
-      </li>
-    <li>
+        
+      </div>
+      <div class="nl">
         <label for="nl"><input type="radio" id="nl" name="know" value="">News letter</label>
-      </li>
-
-      <li>
+        
+      </div>
+      <div class="ot">
         <label for="ot"><input type="radio" id="ot" name="know" value="">Others</label>
-      </li>
-      </ul>
-
+        
+      </div>
     
     
-    
-  </fieldset>
+    </div>
     <div class="">
       <div class="">
        <p>Which Technology and Tools are you familiar with?</p>
